@@ -143,6 +143,6 @@ public class StringBloomFilter {
 			e.printStackTrace();
 		}
 		
-		System.out.println(filter.getCount() + " " + realCount);
+		System.out.println("Unique elements according to bloom filter: "+ filter.getCount() + " \nLines added: " + realCount);
 	}
 }
