@@ -14,6 +14,8 @@ Build the project:
 ant build
 ```
 
+Simplest usage is to read from STDIN and give size of the filter as parameter:
+
 ```bash
 cat testfile.txt | java -cp bin bloom.StringBloomFilter 100000000
 ```
